@@ -49,23 +49,6 @@ URL: jdbc:postgresql://localhost:5432/postgres
 Usuario: postgres
 Contraseña: 12345 (asegúrate de cambiarlo por seguridad).
 
-
-Estructura del Proyecto
-css
-
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com.alura.literalura
-│   │   │       ├── LiteraluraApplication.java
-│   │   │       ├── catalogos
-│   │   │       │   └── CatalogoLibros.java
-│   │   │       ├── services
-│   │   │       │   └── GutendexService.java
-│   │   └── resources
-│   │       ├── application.properties
-├── pom.xml
-
 Notas
 Asegúrate de tener acceso a internet para interactuar con la API de Gutendex.
 Verifica las URLs generadas por la aplicación para depurar posibles errores en las solicitudes HTTP.
@@ -83,3 +66,5 @@ Guardar datos relevantes en la base de datos PostgreSQL para consultas rápidas.
 Agregar más opciones de filtro, como categorías o autores.
 
 Creado como parte del Challenge Alura.
+
+Por Victor Ortega
